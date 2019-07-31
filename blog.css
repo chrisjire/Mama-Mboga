@@ -3,7 +3,11 @@
 }
 ::placeholder {
     color: #000;
-}
+}Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis, eos perspiciatis illo ipsum fuga
+                debitis dignissimos consequuntur repellat possimus atque doloribus ab est? Quisquam totam architecto vel
+                ipsum aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sapiente quod quibusdam
+                repudiandae accusantium officiis commodi, cumque fuga a pariatur, dolore facilis, eveniet cupiditate hic
+                tenetur. Hic qui facere nostrum!
 h1 {
     text-shadow: 0 1px 0 #ccc,
                  0 2px 0 #c9c9c9,
@@ -20,6 +24,13 @@ h1 {
     text-align: center;
     font-size: 70px;
 } */
+html body{
+    height: 100%;
+}
+body{
+    background-color: #444444;
+
+}
 header{
     height: 700px;
     background-color: #000;
@@ -72,16 +83,49 @@ ul {
     height: 500px;
     width: 50%;
     float: right;
-    
+    color: white;
+    padding: 20px;
 }
+
+
 .mk3{
     border: 1px;
-    background-color:white;
+    background-color: #000;
+    height:500px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url('https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+}
+
+.mk3-1{
+    border: 1px;
+    background-color: black;
+    height: 500px;
+    width: 50%;
+    float: right;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+.mk4{
+    border: 1px;
+    background-color: #444444;
     height: 500px;
     width: 100%;
     float: right;
     padding: 30px;
     color: white;
+    
+}
+
+.mk5{
+    height: 30px;
+    width: 100%;
+    background-color: #444444;
 }
 #myBtn {
     display: none;
@@ -99,4 +143,13 @@ ul {
     border-radius: 4px;
   }
 
-
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height:500px ;
+ }
