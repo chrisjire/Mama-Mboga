@@ -1,3 +1,6 @@
+
+
+
 // ************************************************
 // Shopping Cart API
 // ************************************************
@@ -211,3 +214,4 @@ displayCart();
 function myFunction() {
     alert('Your order has been received. Thank you for shopping with us and have a lovely day.');
 }
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<div class="Mama-Mboga">
+    <header>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <br><br><br>
+        <h1>Mama Mboga</h1> -->
+        <nav class="navbar navbar-success bg-success">
+
+            <ul class="nav justify-content-center nav-pill">
+                <li class="nav-link active"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="order.html">Order</a></li>
+                <li class="nav-link"><a href="nutrition.html">Blog</a></li>
+                <li class="nav-link"><a href="#feedback">Feedback</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+</div>
+
+
+<body>
+
+    <div class="mk1">
+        <div class="mk1-2">
+            <h3> <strong>VEGETABLES</strong></h3>
+            <hr>
+            <h6><em>HEALTH BENEFITS</em> </h6>
+            <p> vegetables are packed with soluble as well as insoluble dietary fiber known as non-starch
+                polysaccharides (NSP) such as cellulose, mucilage, hemi-cellulose, gums, pectin...etc. These substances
+                absorb excess water in the colon, retain a good amount of moisture in the fecal matter, and help its
+                smooth passage out of the body. Thus, sufficient fiber offers protection from conditions like chronic
+                constipation, hemorrhoids, colon cancer, irritable bowel syndrome, and rectal fissures.</p>
+
+            <h6><em>How to use vegetables?</em> </h6>
+            <p>fruits, are low in calories and fats but contain good amounts of vitamins and minerals. All the
+                Green-Yellow-Orange vegetables are rich sources of calcium, magnesium, potassium, iron, beta-carotene,
+                vitamin B-complex, vitamin-C, vitamin-A, and vitamin K.
+                As in fruits, vegetables too are home for many antioxidants. These health benefiting phyto-chemical
+                compounds firstly; help protect the human body from oxidant stress, diseases, and cancers, and secondly;
+                help the body develop the capacity to fight against these by boosting immunity.</p>
+
+        </div>
+    </div>
+
+    <div class="mk3">
+        <div class="mk3-1">
+            <h3><strong>FRUITS</strong> </h3>
+            <hr>
+            <h6><em>HEALTH BENEFITS</em> </h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis, eos perspiciatis illo ipsum fuga
+                debitis dignissimos consequuntur repellat possimus atque doloribus ab est? Quisquam totam architecto vel
+                ipsum aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sapiente quod quibusdam
+                repudiandae accusantium officiis commodi, cumque fuga a pariatur, dolore facilis, eveniet cupiditate hic
+                tenetur. Hic qui facere nostrum!  <a href=""></a> </p>
+        </div>
+    </div>
+
+    <div class="mk4">
+        <!-- Form -->
+        <div class="feedback" id="feedback">
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="transparent" placeholder="Name" required>
+
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="transparent" placeholder="Email" required>
+
+                        </div>
+                    </div><br>
+                    <div class="form-group" id="jambo">
+                        <textarea class="form-control" id="transparent" placeholder="type text here"
+                            rows="7"></textarea>
+                    </div>
+
+
+            </form>
+
+
+            <div class="mk5" id="submit">
+                <button class="btn btn-success" type="submit">Submit form</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
+</body>
+
+</html>
