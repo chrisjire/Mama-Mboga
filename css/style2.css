@@ -1,4 +1,4 @@
-@import "compass/css3";
+/* signup */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,8 @@ html, body {
   height:150px;
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  float: left;
 }
 .logo {
   float: left;
@@ -41,7 +42,7 @@ html, body {
     border-bottom: 2px solid #e67e22;
 }
 
-#background{
+body{
   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/4450.jpg');
   height: 100vh;
   background-size: cover;
@@ -99,15 +100,16 @@ button:hover {
 }
 
 /* Add padding to container elements */
-.container {
+#form {
   padding: 10px;
+  margin-top: 250px;
 }
 
 /* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
-  display: table;
+  display: ;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
@@ -116,3 +118,4 @@ button:hover {
      width: 100%;
   }
 }
+/*signup*/

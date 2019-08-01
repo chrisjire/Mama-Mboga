@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
 }
 html, body {
   font-family: 'Slabo 27px', serif;;
@@ -14,9 +15,17 @@ html, body {
 h1{
   text-align: center;
 }
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1467019972079-a273e1bc9173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .navbar{
   height:150px;
-  position: static;
+  width: 100%
+
 }
 .logo {
   float: left;
@@ -29,6 +38,7 @@ h1{
   display: inline-block;
   margin-left: 80px;
   color: white;
+  text-align: center;
 }
 .nav li a:hover,
 .nav li a:active {
@@ -39,41 +49,27 @@ h1{
     border-bottom: 2px solid #e67e22;
 }
 
-.container{
-  overflow: hidden;
-  border-radius: 25px;
-  opacity: 1.0;
-}
-#carouselExampleControls{
-  margin: 2px;
-  border-color: white;
-}
-.border{
-  border: 2px;
-  border-color: white;
-}
-.carousel{
-    background: #2f4357;
-    margin-top: 20px;
-}
-.carousel .item {
-  height: 300px;
-}
-
-.item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
-
 
 #about{
   justify-content: center;
   overflow: hidden;
   text-align: center;
   text-rendering: optimizeLegibility;
+  font-size: 30px;
+}
+
+
+
+#services{
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  padding-top: 50px;
+  background-image: url('https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-size: 30px;
 }
 
