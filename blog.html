@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="blog.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
     </head>
     <div class="Mama-Mboga">
         <header>
@@ -17,8 +18,8 @@
         <h1>Mama Mboga</h1> -->
             <header>
 
-                <ul class="nav justify-content-center nav-pill">
-                    <nav class="navbar navbar-success bg-success">
+                <ul class="nav justify-content-center">
+                    <nav class="navbar navbar-success bg-primary">
                         <img id="header-img" src="images/logo3.jpg" alt="logo" class="logo">
 
                         <ul class="nav justify-content-end nav-pill">
@@ -29,7 +30,6 @@
                             <li class="nav-link"><a href="#contact">Contact</a></li>
                         </ul>
 
-                       
     </div>
     </nav>
     </header>
@@ -68,20 +68,20 @@
         </div>
 
         <div class="mk3">
-            <div class="mk3-1">
-                <h3><strong>FRUITS</strong> </h3>
-                <hr>
-                <h6><em>HEALTH BENEFITS</em> </h6>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis, eos perspiciatis illo ipsum
-                    fuga
-                    debitis dignissimos consequuntur repellat possimus atque doloribus ab est? Quisquam totam architecto
-                    vel
-                    ipsum aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sapiente quod quibusdam
-                    repudiandae accusantium officiis commodi, cumque fuga a pariatur, dolore facilis, eveniet cupiditate
-                    hic
-                    tenetur. Hic qui facere nostrum! <a href=""></a> </p>
+                <div class="mk3-1">
+                    <h3><strong>FRUITS</strong> </h3>
+                    <hr>
+                    <h6><em>HEALTH BENEFITS</em> </h6>
+                    <p>Fruits are low in calories and fats but contain good amounts of vitamins and minerals. All the
+                        Green-Yellow-Orange vegetables are rich sources of calcium, magnesium, potassium, iron,
+                        beta-carotene, vitamin B-complex, vitamin-C, vitamin-A, and vitamin K.
+                        As in fruits, vegetables too are home for many antioxidants. These health benefiting phyto-chemical
+                        compounds firstly; help protect the human body from oxidant stress, diseases, and cancers, and
+                        secondly; help the body develop the capacity to fight against these by boosting immunity.
+    ​
+                        <a href=""></a> </p>
+                </div>
             </div>
-        </div>
 
         <div class="mk4">
             <!-- Form -->
@@ -108,7 +108,7 @@
 
 
                 <div class="mk5" id="submit">
-                    <button class="btn btn-success" type="submit">Submit form</button>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
                 </div>
 
             </div>
@@ -128,12 +128,21 @@
                 }
             }
 
+    
             // When the user clicks on the button, scroll to the top of the document
             function topFunction() {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
             }
-        </script>
+            $("form").submit(function(){
+            var name=$("input#name").val();
+            alert("Hello "+name+" Thank you for contacting us");
+            })
+        {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
 
     </body>
 

@@ -12,11 +12,9 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-        $("form").submit(function(){
+        $("form#submit").submit(function(){
          var name=$("input#name").val();
          alert("Hello "+name+" Thank you for contacting us");
         })
-        $("form").submit(function(){
-          var name=$("input#name").val();
-          alert("Hello "+name+" Thank you for contacting us");
-        })
+       
+        

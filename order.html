@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   ​
-
+​
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oder</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="order.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+​
   </head>
-
-
+​
+​
   <body>
-
+​
     <div class="container">
-
-      <div class="jumbotron jumbotron-fluid">
-
+​
+      <div class="jumbotron jumbotron-fluid" id="mk4">
+​
         <table class="table">
+          <h1>Vegetables</h1>
           <thead class="thead-dark">
             <tr>
               <th scope="col">#</th>
@@ -51,7 +53,7 @@
               <td><a href="#" data-name="broccoli" data-price="70" class="add-to-cart btn btn-primary">Add to cart</a>
               </td>
             </tr>
-
+​
             <tr>
               <th scope="row">4</th>
               <td>chard</td>
@@ -131,122 +133,138 @@
         </table>
       </div>
       ​
-      <div class="jumbotron jumbotron-fluid" id="img">
-        ​
-        <table class="table">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Fruits</th>
-              <th scope="col">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>banana bunch</td>
-              <td>50</td>
-              <td><a href="#" data-name="banana" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>apple</td>
-              <td>25</td>
-              <td><a href="#" data-name="apple" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>pinne apple</td>
-              <td>50</td>
-              <td><a href="#" data-name="apple" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>red grapes/green grapes </td>
-              <td>250</td>
-              <td><a href="#" data-name="" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>guava</td>
-              <td>50</td>
-              <td><a href="#" data-name="guava" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>peach</td>
-              <td>30</td>
-              <td><a href="#" data-name="peach" data-price="30" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>paw paw</td>
-              <td>200</td>
-              <td><a href="#" data-name="pawpaw" data-price="200" class="add-to-cart btn btn-primary">Add to cart</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>kiwi</td>
-              <td>300</td>
-              <td><a href="#" data-name="kiwi" data-price="300" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>mango</td>
-              <td>20</td>
-              <td><a href="#" data-name="mango" data-price="20" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td>pears</td>
-              <td> 10</td>
-              <td><a href="#" data-name="pears" data-price="10" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-            <tr>
-              <th scope="row">12</th>
-              <td>dates</td>
-              <td>50</td>
-              <td><a href="#" data-name="dates" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></td>
-            </tr>
-          </tbody>
-          <div class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
-        </table>
-      </div>
-      ​
-      <div class="container">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
-            class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
-
-        <div class="modal fade" id="cart" tab-index="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <table class="show-cart table">
-
-                </table>
-                <div>Total price: ksh<span class="total-cart"></span></div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="myFunction()">Order now</button>
+    </div>
+​
+    <a href="index.html" class="button bg-primary-"><strong>
+        <<<<<<</strong> </a> <div class="container">
+          <div class="jumbotron jumbotron-fluid" id="img">
+            ​
+            <table class="table">
+              <h1>Fruits</h1>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Fruits</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>banana bunch</td>
+                  <td>50</td>
+                  <td><a href="#" data-name="banana" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>apple</td>
+                  <td>25</td>
+                  <td><a href="#" data-name="apple" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>pinne apple</td>
+                  <td>50</td>
+                  <td><a href="#" data-name="apple" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>red grapes/green grapes </td>
+                  <td>250</td>
+                  <td><a href="#" data-name="" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>guava</td>
+                  <td>50</td>
+                  <td><a href="#" data-name="guava" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>peach</td>
+                  <td>30</td>
+                  <td><a href="#" data-name="peach" data-price="30" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>paw paw</td>
+                  <td>200</td>
+                  <td><a href="#" data-name="pawpaw" data-price="200" class="add-to-cart btn btn-primary">Add to
+                      cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>kiwi</td>
+                  <td>300</td>
+                  <td><a href="#" data-name="kiwi" data-price="300" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>mango</td>
+                  <td>20</td>
+                  <td><a href="#" data-name="mango" data-price="20" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>pears</td>
+                  <td> 10</td>
+                  <td><a href="#" data-name="pears" data-price="10" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>dates</td>
+                  <td>50</td>
+                  <td><a href="#" data-name="dates" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </td>
+                </tr>
+              </tbody>
+              <div class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+            </table>
+            <button id="mk2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
+                class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
+          </div>
+          ​
+          <div class="container" id="mk3">
+​
+​
+​
+            <div class="modal fade" id="cart" tab-index="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="show-cart table">
+​
+                    </table>
+                    <div>Total price: ksh<span class="total-cart"></span></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="myFunction()">Order now</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="js/Script.js"></script>
-
+          </div>
+​
+          <script src="js/Script.js"></script>
+​
   </body>
-
+​
 </html>

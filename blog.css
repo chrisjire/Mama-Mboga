@@ -24,9 +24,15 @@ header {
       font-size: 90%;
       border-bottom: 2px solid #e67e22;
   } */
+body {
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	font-weight: 300;
+}
 .navbar {
 	height: 150px;
 	width: 100%;
+	font-family: 'Slabo 27px', serif;
 }
 .logo {
 	float: left;
@@ -59,9 +65,7 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover {
-	background-color: #111;
-}
+
 .mk1 {
 	border: 1px;
 	background-color: #000;
@@ -107,7 +111,7 @@ li a:hover {
 	color: black;
 }
 #submit {
-	color: green;
+	color: blue;
 }
 #myBtn {
 	/* display: none; */
@@ -126,8 +130,13 @@ li a:hover {
 	border-radius: 4px;
 	padding-left: 30px;
 }
+#myBtn{
+	background-color: blue;
+	
+}
 #myBtn:hover {
 	background-color: #555;
+	
 }
 .footer {
 	left: 0;

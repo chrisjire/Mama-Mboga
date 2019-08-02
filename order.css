@@ -1,10 +1,53 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1526470303-82c787d88682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1445&q=80");
+	font-family: 'Slabo 27px', serif;
+}
+
 button {
 	margin-left: 40px;
+	padding: 30px;
 }
 .container {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	background-color: white;
+	border-radius: 25px;
+	padding: 2px;
+	margin-bottom: 50px;
 }
 .show-cart li {
 	display: flex;
+}
+#mk2 {
+	margin-right: 30px;
+}
+#mk3 {
+	margin: 0px;
+	height: 50px;
+}
+.jumbotron-fluid {
+	background-color: white;
+	border-radius: 25px;
+}
+table {
+	background-color: white;
+}
+#mk4 {
+	background-color: white;
+}
+#img {
+	background-color: white;
+}
+.button {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
 }
